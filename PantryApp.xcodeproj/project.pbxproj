@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494CA4672112BA5900B95117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CA4662112BA5900B95117 /* AppDelegate.swift */; };
+		494CA4692112BA5900B95117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CA4682112BA5900B95117 /* ViewController.swift */; };
+		494CA46C2112BA5900B95117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CA46A2112BA5900B95117 /* Main.storyboard */; };
+		494CA46F2112BA5900B95117 /* PantryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 494CA46D2112BA5900B95117 /* PantryApp.xcdatamodeld */; };
+		494CA4712112BA5D00B95117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494CA4702112BA5D00B95117 /* Assets.xcassets */; };
+		494CA4742112BA5D00B95117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494CA4722112BA5D00B95117 /* LaunchScreen.storyboard */; };
+		494CA47F2112BA5E00B95117 /* PantryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CA47E2112BA5E00B95117 /* PantryAppTests.swift */; };
+		494CA48A2112BA5E00B95117 /* PantryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CA4892112BA5E00B95117 /* PantryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494CA47B2112BA5E00B95117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494CA45B2112BA5900B95117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494CA4622112BA5900B95117;
+			remoteInfo = PantryApp;
+		};
+		494CA4862112BA5E00B95117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494CA45B2112BA5900B95117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494CA4622112BA5900B95117;
+			remoteInfo = PantryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494CA4632112BA5900B95117 /* PantryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PantryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CA4662112BA5900B95117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494CA4682112BA5900B95117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		494CA46B2112BA5900B95117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494CA46E2112BA5900B95117 /* PantryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PantryApp.xcdatamodel; sourceTree = "<group>"; };
+		494CA4702112BA5D00B95117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494CA4732112BA5D00B95117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494CA4752112BA5D00B95117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494CA47A2112BA5E00B95117 /* PantryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CA47E2112BA5E00B95117 /* PantryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryAppTests.swift; sourceTree = "<group>"; };
+		494CA4802112BA5E00B95117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494CA4852112BA5E00B95117 /* PantryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CA4892112BA5E00B95117 /* PantryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryAppUITests.swift; sourceTree = "<group>"; };
+		494CA48B2112BA5E00B95117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494CA4602112BA5900B95117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4772112BA5E00B95117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4822112BA5E00B95117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494CA45A2112BA5900B95117 = {
+			isa = PBXGroup;
+			children = (
+				494CA4652112BA5900B95117 /* PantryApp */,
+				494CA47D2112BA5E00B95117 /* PantryAppTests */,
+				494CA4882112BA5E00B95117 /* PantryAppUITests */,
+				494CA4642112BA5900B95117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494CA4642112BA5900B95117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494CA4632112BA5900B95117 /* PantryApp.app */,
+				494CA47A2112BA5E00B95117 /* PantryAppTests.xctest */,
+				494CA4852112BA5E00B95117 /* PantryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494CA4652112BA5900B95117 /* PantryApp */ = {
+			isa = PBXGroup;
+			children = (
+				494CA4662112BA5900B95117 /* AppDelegate.swift */,
+				494CA4682112BA5900B95117 /* ViewController.swift */,
+				494CA46A2112BA5900B95117 /* Main.storyboard */,
+				494CA4702112BA5D00B95117 /* Assets.xcassets */,
+				494CA4722112BA5D00B95117 /* LaunchScreen.storyboard */,
+				494CA4752112BA5D00B95117 /* Info.plist */,
+				494CA46D2112BA5900B95117 /* PantryApp.xcdatamodeld */,
+			);
+			path = PantryApp;
+			sourceTree = "<group>";
+		};
+		494CA47D2112BA5E00B95117 /* PantryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				494CA47E2112BA5E00B95117 /* PantryAppTests.swift */,
+				494CA4802112BA5E00B95117 /* Info.plist */,
+			);
+			path = PantryAppTests;
+			sourceTree = "<group>";
+		};
+		494CA4882112BA5E00B95117 /* PantryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494CA4892112BA5E00B95117 /* PantryAppUITests.swift */,
+				494CA48B2112BA5E00B95117 /* Info.plist */,
+			);
+			path = PantryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494CA4622112BA5900B95117 /* PantryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CA48E2112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryApp" */;
+			buildPhases = (
+				494CA45F2112BA5900B95117 /* Sources */,
+				494CA4602112BA5900B95117 /* Frameworks */,
+				494CA4612112BA5900B95117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PantryApp;
+			productName = PantryApp;
+			productReference = 494CA4632112BA5900B95117 /* PantryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494CA4792112BA5E00B95117 /* PantryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CA4912112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryAppTests" */;
+			buildPhases = (
+				494CA4762112BA5E00B95117 /* Sources */,
+				494CA4772112BA5E00B95117 /* Frameworks */,
+				494CA4782112BA5E00B95117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494CA47C2112BA5E00B95117 /* PBXTargetDependency */,
+			);
+			name = PantryAppTests;
+			productName = PantryAppTests;
+			productReference = 494CA47A2112BA5E00B95117 /* PantryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494CA4842112BA5E00B95117 /* PantryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494CA4942112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryAppUITests" */;
+			buildPhases = (
+				494CA4812112BA5E00B95117 /* Sources */,
+				494CA4822112BA5E00B95117 /* Frameworks */,
+				494CA4832112BA5E00B95117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494CA4872112BA5E00B95117 /* PBXTargetDependency */,
+			);
+			name = PantryAppUITests;
+			productName = PantryAppUITests;
+			productReference = 494CA4852112BA5E00B95117 /* PantryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494CA45B2112BA5900B95117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RobbieNick;
+				TargetAttributes = {
+					494CA4622112BA5900B95117 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					494CA4792112BA5E00B95117 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 494CA4622112BA5900B95117;
+					};
+					494CA4842112BA5E00B95117 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 494CA4622112BA5900B95117;
+					};
+				};
+			};
+			buildConfigurationList = 494CA45E2112BA5900B95117 /* Build configuration list for PBXProject "PantryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494CA45A2112BA5900B95117;
+			productRefGroup = 494CA4642112BA5900B95117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494CA4622112BA5900B95117 /* PantryApp */,
+				494CA4792112BA5E00B95117 /* PantryAppTests */,
+				494CA4842112BA5E00B95117 /* PantryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494CA4612112BA5900B95117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CA4742112BA5D00B95117 /* LaunchScreen.storyboard in Resources */,
+				494CA4712112BA5D00B95117 /* Assets.xcassets in Resources */,
+				494CA46C2112BA5900B95117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4782112BA5E00B95117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4832112BA5E00B95117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494CA45F2112BA5900B95117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CA46F2112BA5900B95117 /* PantryApp.xcdatamodeld in Sources */,
+				494CA4692112BA5900B95117 /* ViewController.swift in Sources */,
+				494CA4672112BA5900B95117 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4762112BA5E00B95117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CA47F2112BA5E00B95117 /* PantryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494CA4812112BA5E00B95117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494CA48A2112BA5E00B95117 /* PantryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494CA47C2112BA5E00B95117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494CA4622112BA5900B95117 /* PantryApp */;
+			targetProxy = 494CA47B2112BA5E00B95117 /* PBXContainerItemProxy */;
+		};
+		494CA4872112BA5E00B95117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494CA4622112BA5900B95117 /* PantryApp */;
+			targetProxy = 494CA4862112BA5E00B95117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494CA46A2112BA5900B95117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CA46B2112BA5900B95117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494CA4722112BA5D00B95117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494CA4732112BA5D00B95117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494CA48C2112BA5E00B95117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494CA48D2112BA5E00B95117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494CA48F2112BA5E00B95117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494CA4902112BA5E00B95117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		494CA4922112BA5E00B95117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryApp.app/PantryApp";
+			};
+			name = Debug;
+		};
+		494CA4932112BA5E00B95117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryApp.app/PantryApp";
+			};
+			name = Release;
+		};
+		494CA4952112BA5E00B95117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantryApp;
+			};
+			name = Debug;
+		};
+		494CA4962112BA5E00B95117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PantryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PantryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494CA45E2112BA5900B95117 /* Build configuration list for PBXProject "PantryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CA48C2112BA5E00B95117 /* Debug */,
+				494CA48D2112BA5E00B95117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494CA48E2112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CA48F2112BA5E00B95117 /* Debug */,
+				494CA4902112BA5E00B95117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494CA4912112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CA4922112BA5E00B95117 /* Debug */,
+				494CA4932112BA5E00B95117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494CA4942112BA5E00B95117 /* Build configuration list for PBXNativeTarget "PantryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494CA4952112BA5E00B95117 /* Debug */,
+				494CA4962112BA5E00B95117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		494CA46D2112BA5900B95117 /* PantryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				494CA46E2112BA5900B95117 /* PantryApp.xcdatamodel */,
+			);
+			currentVersion = 494CA46E2112BA5900B95117 /* PantryApp.xcdatamodel */;
+			path = PantryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 494CA45B2112BA5900B95117 /* Project object */;
+}
